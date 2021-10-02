@@ -1,0 +1,109 @@
+2020-07-21 16:04:51,995 DEBUG [main]- Hostname: DESKTOP-BGMR47K
+2020-07-21 16:04:51,997 DEBUG [main]- Origem de execução: 'LOCAL'
+2020-07-21 16:04:52,050 INFO  [main]- Inicializando FTABB (2019.5.5-18 (19/02/2020 1200))
+2020-07-21 16:04:52,050 INFO  [main]- Contexto de execução criado com o ID: 'b47E7dee7y'
+2020-07-21 16:04:52,051 INFO  [main]- Origem da execução: 'LOCAL'
+2020-07-21 16:04:52,104 DEBUG [main]- Testes iniciados: runners.RunnerTest
+2020-07-21 16:04:53,006 DEBUG [main]- Carregando as configurações dos módulos...
+2020-07-21 16:04:53,009 DEBUG [main]- Inicializando o módulo CONFIG
+2020-07-21 16:04:53,013 DEBUG [main]- <app.config> Propriedade: 'browser.firefox.preferences' com valor 'network.proxy.type=2; network.proxy.autoconfig_url=http://170.66.49.180/proxy.pac;accept_untrusted_certs=true; network.proxy.no_proxies_on=localhost,127.0.0.1'
+2020-07-21 16:04:53,013 DEBUG [main]- <app.config> Propriedade: 'painel.sigla' com valor 'NIA'
+2020-07-21 16:04:53,013 WARN  [main]- Erro ao setar o valor da configuração: framework.web.finder.tempo_entre_tentativas. Motivo: Configuração não registrada.
+2020-07-21 16:04:53,013 DEBUG [main]- <app.config> Propriedade: 'framework.web.finder.tempo_entre_tentativas' com valor '3000'
+2020-07-21 16:04:53,014 DEBUG [main]- <app.config> Propriedade: 'framework.pageload.timeout' com valor '20'
+2020-07-21 16:04:53,014 DEBUG [main]- <app.config> Propriedade: 'browser.headlessMode' com valor 'false'
+2020-07-21 16:04:53,014 DEBUG [main]- <app.config> Propriedade: 'screenshots.path' com valor 'C:\prints'
+2020-07-21 16:04:53,014 DEBUG [main]- <app.config> Propriedade: 'painel.ambiente_gravacao' com valor 'producao'
+2020-07-21 16:04:53,014 DEBUG [main]- <app.config> Propriedade: 'browser' com valor 'firefox:68'
+2020-07-21 16:04:53,014 WARN  [main]- Erro ao setar o valor da configuração: framework.findelement.timeout. Motivo: Configuração não registrada.
+2020-07-21 16:04:53,014 DEBUG [main]- <app.config> Propriedade: 'framework.findelement.timeout' com valor '20'
+2020-07-21 16:04:53,014 DEBUG [main]- <app.config> Propriedade: 'framework.web.finder.max_tentativas' com valor '5'
+2020-07-21 16:04:53,015 DEBUG [main]- <app.config> Propriedade: 'painel.servico' com valor 'PLATAFORMA WEB (MCI)'
+2020-07-21 16:04:53,019 DEBUG [main]- Módulo CONFIG inicializado
+2020-07-21 16:04:53,019 DEBUG [main]- Inicializando o módulo LOG_EXECUCAO
+2020-07-21 16:04:53,021 DEBUG [main]- Recuperando IP da api de execuções no endereço: http://ftabb.intranet.bb.com.br/hosts/execucoes-api/desenv
+2020-07-21 16:04:53,077 ERROR [main]- URL indisponível 'http://ftabb.intranet.bb.com.br/hosts/execucoes-api/desenv'
+2020-07-21 16:04:53,078 ERROR [main]- Erro ao recuperar IP do servidor remoto ( DESENV ). Especifique manualmente o IP através da configuração: browser.remote.host 
+2020-07-21 16:04:53,078 DEBUG [main]- !!! Serviço de descoberta de hosts indisponível. Gravação do log de execução desativada
+2020-07-21 16:04:53,079 DEBUG [main]- Módulo LOG_EXECUCAO inicializado
+2020-07-21 16:04:53,079 DEBUG [main]- Inicializando o módulo BROWSER
+2020-07-21 16:04:53,089 DEBUG [main]- Browser não encontrado na pasta do framework (C:\Users\Junior\ftabb\navegadores\firefox68\firefox.exe). Tentando localizar o browser em outra pasta.
+2020-07-21 16:04:53,089 DEBUG [main]- Driver não encontrado na pasta do framework (C:\Users\Junior\ftabb\navegadores\firefox68\geckodriver.exe). Tentando localizar na pasta drivers.
+2020-07-21 16:04:53,267 DEBUG [main]- Tentando inicializar o navegador local com as configurações: 
+Browser: firefox
+Versão: 68
+Plataforma: WINDOWS
+Modo Remoto: false
+Host Remoto: 
+Modo Headless: false
+Browser binary path: null
+Driver Path: C:\Users\Junior\ftabb\drivers\geckodriver.exe
+Download Path: C:\Users\Junior\AppData\Local\Temp\~downftabb7535424023063970717
+Browser preference: accept_untrusted_certs=true
+Browser preference: network.proxy.type=2
+Browser preference: network.proxy.autoconfig_url=http://170.66.49.180/proxy.pac
+Browser preference: network.proxy.no_proxies_on=localhost,127.0.0.1
+Browser Argument: -no-remote
+
+2020-07-21 16:05:00,453 INFO  [main]- Browser inicializado: firefox(77.0) - WINDOWS - Driver: 
+2020-07-21 16:05:00,481 DEBUG [main]- Módulo BROWSER inicializado
+2020-07-21 16:05:00,481 DEBUG [main]- Inicializando o módulo ELEMENT
+2020-07-21 16:05:00,518 DEBUG [main]- JSWaiter: Esperar por elementos angular: false
+2020-07-21 16:05:00,518 DEBUG [main]- JSWaiter: Esperar por elementos JQuery: false
+2020-07-21 16:05:00,519 DEBUG [main]- JSWaiter: Esperar por elementos JSF: false
+2020-07-21 16:05:00,519 DEBUG [main]- JSWaiter: Esperar por elementos JS: false
+2020-07-21 16:05:00,519 DEBUG [main]- Máximo de tentativas para encontrar elementos na tela: 5
+2020-07-21 16:05:00,519 DEBUG [main]- Tempo entre as tentativas: 500 ms
+2020-07-21 16:05:00,525 DEBUG [main]- Módulo ELEMENT inicializado
+2020-07-21 16:05:00,526 DEBUG [main]- Inicializando o módulo DATAPOOL
+2020-07-21 16:05:00,526 INFO  [main]- Path dos datapools: datapools
+2020-07-21 16:05:00,538 DEBUG [main]- Módulo DATAPOOL inicializado
+2020-07-21 16:05:00,538 DEBUG [main]- Inicializando o módulo EVIDENCIAS
+2020-07-21 16:05:00,538 DEBUG [main]- Módulo EVIDENCIAS inicializado
+2020-07-21 16:05:00,538 DEBUG [main]- Inicializando o módulo RUNNER
+2020-07-21 16:05:00,539 WARN  [main]- PAINEL: Gravação dos resultados no painel NÃO ATIVADA. Para ativar defina no app.config a propriedade: painel.ativar_gravacao = true
+2020-07-21 16:05:00,540 WARN  [main]- 
+
+A gravação dos resultados no painel foi desabilitada.
+
+
+2020-07-21 16:05:00,540 DEBUG [main]- Módulo RUNNER inicializado
+2020-07-21 16:05:00,541 WARN  [main]- Não foi possível recuperar contexto do projeto !!!
+2020-07-21 16:05:02,058 DEBUG [main]- [Tentativa 1] Pesquisando elemento: campoLogin - @WEB(porXPath[//input[@id = 'txtChave' or @id = 'chave' or @id = 'idToken1']])
+2020-07-21 16:05:02,058 DEBUG [main]- Alterado para iframe principal
+2020-07-21 16:05:02,097 DEBUG [main]- JSWaiter :: Tempo total gasto 11ms [Pré wait 11ms]
+2020-07-21 16:05:03,170 DEBUG [main]- Elemento 'campoLogin' não foi localizado
+2020-07-21 16:05:03,671 DEBUG [main]- [Tentativa 2] Pesquisando elemento: campoLogin - @WEB(porXPath[//input[@id = 'txtChave' or @id = 'chave' or @id = 'idToken1']])
+2020-07-21 16:05:03,671 DEBUG [main]- Alterado para iframe principal
+2020-07-21 16:05:03,688 DEBUG [main]- JSWaiter :: Tempo total gasto 10ms [Pré wait 10ms]
+2020-07-21 16:05:04,728 DEBUG [main]- Elemento 'campoLogin' não foi localizado
+2020-07-21 16:05:05,228 DEBUG [main]- [Tentativa 3] Pesquisando elemento: campoLogin - @WEB(porXPath[//input[@id = 'txtChave' or @id = 'chave' or @id = 'idToken1']])
+2020-07-21 16:05:05,228 DEBUG [main]- Alterado para iframe principal
+2020-07-21 16:05:05,286 DEBUG [main]- JSWaiter :: Tempo total gasto 11ms [Pré wait 11ms]
+2020-07-21 16:05:05,861 DEBUG [main]- Elemento 'campoLogin' localizado em 3803ms
+2020-07-21 16:05:06,009 DEBUG [main]- [Tentativa 1] Pesquisando elemento: campoSenha - @WEB(porXPath[//input[@id = 'txtSenha' or @id = 'senha' or @id = 'idToken2']])
+2020-07-21 16:05:06,010 DEBUG [main]- Alterado para iframe principal
+2020-07-21 16:05:06,029 DEBUG [main]- JSWaiter :: Tempo total gasto 11ms [Pré wait 11ms]
+2020-07-21 16:05:06,070 DEBUG [main]- Elemento 'campoSenha' localizado em 60ms
+2020-07-21 16:05:06,176 DEBUG [main]- Clicar no elemento 'botaoEntrar' !!!
+2020-07-21 16:05:06,176 DEBUG [main]- [Tentativa 1] Pesquisando elemento: botaoEntrar - @WEB(porXPath[//input[@class = 'button' or @id = 'entrar' or @id = 'loginButton_0']])
+2020-07-21 16:05:06,177 DEBUG [main]- Alterado para iframe principal
+2020-07-21 16:05:06,195 DEBUG [main]- JSWaiter :: Tempo total gasto 10ms [Pré wait 10ms]
+2020-07-21 16:05:06,239 DEBUG [main]- Elemento 'botaoEntrar' localizado em 63ms
+2020-07-21 16:05:12,667 DEBUG [main]- [Tentativa 1] Pesquisando elemento: inputBuscar - @WEB(porXPath[//input[@id='input-01']])
+2020-07-21 16:05:12,667 DEBUG [main]- Alterado para iframe principal
+2020-07-21 16:05:12,687 DEBUG [main]- JSWaiter :: Tempo total gasto 11ms [Pré wait 11ms]
+2020-07-21 16:05:12,735 DEBUG [main]- Elemento 'inputBuscar' localizado em 68ms
+2020-07-21 16:05:12,876 DEBUG [main]- Clicar no elemento 'btnAcessarAssunto' !!!
+2020-07-21 16:05:12,876 DEBUG [main]- [Tentativa 1] Pesquisando elemento: btnAcessarAssunto - @WEB(porXPath[//li[1]])
+2020-07-21 16:05:12,876 DEBUG [main]- Alterado para iframe principal
+2020-07-21 16:05:12,895 DEBUG [main]- JSWaiter :: Tempo total gasto 11ms [Pré wait 11ms]
+2020-07-21 16:05:12,946 DEBUG [main]- Elemento 'btnAcessarAssunto' localizado em 70ms
+2020-07-21 16:05:14,308 DEBUG [main]- [Tentativa 1] Pesquisando elemento: inputChat - @WEB(porXPath[//textarea[@placeholder='Informe a pergunta desejada...']])
+2020-07-21 16:05:14,308 DEBUG [main]- Alterado para iframe principal
+2020-07-21 16:05:14,325 DEBUG [main]- JSWaiter :: Tempo total gasto 11ms [Pré wait 11ms]
+2020-07-21 16:05:14,370 DEBUG [main]- Elemento 'inputChat' localizado em 62ms
+2020-07-21 16:05:18,845 DEBUG [main]- Teste passou: Caso de Teste 'Acessar o ChatBot - Norminha', funcionalidade 'Acessar o ChatBot - Norminhao'
+2020-07-21 16:05:18,845 DEBUG [main]- Teste finalizado: Acessar o ChatBot - Norminha(Acessar o ChatBot - Norminhao)
+2020-07-21 16:05:18,846 DEBUG [main]- Iniciando apagarCookies()
+2020-07-21 16:05:18,873 DEBUG [main]- Testes finalizados: 1 executados, 0 falhas, 0 ignorados 
